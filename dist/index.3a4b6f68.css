@@ -1,0 +1,23 @@
+@media only screen and (device-width >= 320px) and (device-width <= 480px) {
+  h2 {
+    display: none;
+  }
+}
+
+@media only screen and (width <= 320px) {
+  h2 {
+    display: none;
+  }
+
+  h1 {
+    justify-content: center;
+    font-size: 50px;
+  }
+
+  .squares {
+    justify-content: center;
+    display: flex;
+  }
+}
+
+/*# sourceMappingURL=index.3a4b6f68.css.map */

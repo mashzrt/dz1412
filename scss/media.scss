@@ -1,0 +1,39 @@
+/* 1 Смартфоны (портрет и ландшафтный)
+*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  h2 {
+    display: none;
+  }
+}
+
+/* 3 Смартфоны (portrait)
+*/
+@media only screen and (max-width: 320px) {
+  h2 {
+    display: none;
+  }
+  h1 {
+    font-size: 50px;
+    justify-content: center;
+  }
+  .squares {
+    display: flex;
+    justify-content: center;
+  }
+}
+/* 4 iPads  */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+}
+/* 5 iPads (Ландшафтный)
+*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+}
+/* 6 iPads (Портрет) */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+}
+/* 7 Настольные компьютеры и ноутбуки */
+@media only screen and (min-width: 1224px) {
+}
+/* 8 Большие экраны */
+@media only screen and (min-width: 1824px) {
+}
